@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "书城",
+  "navigationBarBackgroundColor": "#412ffe",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "lunbo": "/components/lunbo/lunbo",
+    "related": "/components/related/related"
+  }
+}

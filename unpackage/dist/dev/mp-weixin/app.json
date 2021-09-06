@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/issue/issue",
+    "pages/sell/sell",
+    "pages/profile/profile",
+    "pages/myfabu/myfabu",
+    "pages/mypaper/mypaper",
+    "pages/advice/advice",
+    "pages/aboutwe/aboutwe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouye0.png",
+        "selectedIconPath": "static/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "iconPath": "static/shucheng0.png",
+        "selectedIconPath": "static/shucheng.png",
+        "text": "书城"
+      },
+      {
+        "pagePath": "pages/issue/issue",
+        "iconPath": "static/fabu0.png",
+        "selectedIconPath": "static/fabu.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/wode0.png",
+        "selectedIconPath": "static/wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
